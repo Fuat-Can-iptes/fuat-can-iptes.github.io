@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Portfolyo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Üst Menü -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero-premium">Ana Sayfa</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#yetkinlikler">Yetkinlikler</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#sertifikalar">Sertifikalar</a></li>
+                <li><a href="#gonulluluk">Gönüllülük</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Giriş (Hero) Bölümü -->
+   <section id="hero-premium">
+    <div class="hero-container scroll-anim">
+        <div class="hero-photo-side">
+            <div class="profile-img-frame">
+                <img src="fotolar/fotom.jpeg" alt="Profil Fotoğrafı" class="profile-img-large">
+            </div>
+        </div>
+
+        <div class="hero-text-side">
+            <h1>Fuat Can İpteş</h1> <p class="hero-title">Bilgisayar Mühendisliği Öğrencisi</p>
+            
+            <div class="hero-tags">
+                <span class="skill-tag">
+                    <i class="fa-solid fa-microchip"></i> Gömülü Sistemler
+                </span>
+                <span class="skill-tag">
+                    <i class="fa-solid fa-code"></i> Nesne Yönelimli Programlama
+                </span>
+                <span class="skill-tag">
+    <i class="fa-solid fa-window-maximize"></i> Web Programlama
+</span>
+            </div>
+
+          <div class="hero-actions">
+               <a href="fotolar/CV_Fuat_Can_İptes (1).pdf" class="btn-primary" download>Özgeçmişi İndir</a>
+                
+                <a href="#iletisim" class="btn-secondary">İletişime Geç</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Hakkımda -->
+    <section id="hakkimda" class="scroll-anim">
+        <h2>Hakkımda</h2>
+        <div class="card-clean">
+            <p>
+                Merhabalar Ben Fuat Can İpteş.Karabük Üniversitesi Bilgisayar Mühendisliği 2.sınıf öğrencisiyim.Aktif olarak Hava Savunma sistemleri kategorisindeki bir Teknofest takımında gömülü yazılım(C)geliştirme üzerine çalışmalar yapıyorum.Bunun yanında web tabanlı programlama(HTML,CSS,JS,PhP) üzerine bilgi birikimi arttırmaya devam ediyorum.Kendimi geliştirmeyi ve öğrenmeyi seviyorum.Hedefim Ülkesine Faydalı bir bilgiayar mühendisi olmaktır.
+        </div>
+    </section>
+
+
+<section id="yetkinlikler" class="scroll-anim">
+        <h2>Yetkinlikler</h2>
+        <div class="grid-container">
+            
+            <div class="card-clean skill-box">
+                <i class="fa-solid fa-code icon-skill"></i>
+                <h3>Yazılım Dilleri</h3>
+                <div class="skill-list-clean">
+                    <span>C</span>
+                    <span>Java</span>
+                    <span>PHP</span>
+                    <span>SQL</span>
+                    
+                </div>
+            </div>
+
+            <div class="card-clean skill-box">
+                <i class="fa-solid fa-globe icon-skill"></i>
+                <h3>Web Geliştirme</h3>
+                <div class="skill-list-clean">
+                    <span>HTML5 & CSS3</span>
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+
+                </div>
+            </div>
+
+            <div class="card-clean skill-box">
+                <i class="fa-solid fa-microchip icon-skill"></i>
+                <h3>Donanım & Sistem</h3>
+                <div class="skill-list-clean">
+                    <span>STM32 (ARM Cortex)</span>
+                    <span>UART / SPI / I2C</span>
+                    <span>embedded C</span>
+                    <span>RTOS</span>
+                   
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Projeler -->
+    <section id="projeler" class="scroll-anim">
+        <h2>Projeler</h2>
+        <div class="grid-container">
+            <article class="card-clean">
+                <h3>Teknofest Çelikkubbe Hava Savunma Sistemi Yarışması</h3>
+                <p>Aktif olarak devam eden projemizde donanım kesmeleri (interrupt) tabanlı mikrosaniye hassasiyetinde acil 
+durdurma mekanizması geliştirerek lazer ve motor sistemlerinde maksimum güvenlik sağlıyorum ve UART, SPI, I2C 
+haberleşme protokolleriyle yüksek hızlı ve optimize edilmiş bir donanım-yazılım entegrasyonu kuruyorum. 
+Hassas motor kontrolü ve hedef takip algoritmalarını kullanarak hedef imhasına yönelik çalışmalarımı 
+sürdürüyorum.Projemiz güncel olarak ön tasarım raporundan 100 üzerinden 94 puan alarak bir sonraki aşamaya geçmiş bulunmaktadır.</p>
+            
+<div class="project-tech-tags">
+                    <span class="tech-tag">embedded C</span>
+                    <span class="tech-tag">STM32 mikrodenetleyicisi</span>
+                    <span class="tech-tag">UART/SPI/I2C</span>
+                </div>
+
+</article>
+
+            <article class="card-clean">
+                <h3>AI Destekli Solana Cüzdan Analizcisi</h3>
+                <p>Monad Blitz ve CURSOR tarafından Ankara'da düzenlenen hackathon kapsamında takım arkadaşlarım ile birlikte AI AGENT'lar aracılığıyla müşteri cüzdanlarındaki varlık dağılımlarını analiz ederek 1-7 arasında puanlama yaparak cüzdanın risk seviiyesini analiz edip kullanıcıya şu anki varlık dağılımı hakkında detaylı risk analizi ve açıklama sunulmuştur.Python kütüphaneleri kullanılarak varlık dağılımları görselleştirilmiştir.</p>
+                <div class="project-tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">AI</span>
+                    <span class="tech-tag">Solana</span>
+                     <span class="tech-tag">Blockchain</span>
+                      <span class="tech-tag">AI Agents</span>
+                </div>
+            </article>
+
+
+            <article class="card-clean">
+                <h3>Web tabanlı E-ticaret Sitesi</h3>
+                <p>Bu projede Nalbur adı altındaki hırdavat,iş güvenliği,boya-yapı,el aletleri,elektrikli aletler gibi kategorilerdeki geniş ürün yelpazeli bir e-ticaret sitesi oluşturdum.Frontend için html,css ve javascript teknolojilerini kullandım ve backend için PHP ve MySQL veritabanını kullandım.Admin panelini ve müşterilerin sipariş verebildikleri ve ürünleri inceledikleri bu projede müşteriler ürünlerin açıklamalarını ve özelliklerini fotoğraflarıyla birlikte detaylıca inceleyebilmektedirler ayrıca beğendikleri ürünleri favorilerine ekleyebilmektedirler.Admin sayfasında ise databseyle bağlantılı olarak ürün ekleme,çıkarma,ürünlerin stoklarının takip edilmesi,müşterilerin siparişlerinin durumlarını güncelleyerek müşteriye geri bildiriminin yapılması,stok durumu kritik ürünler için tedarik zincirinin anlık olarak izlenmesi sağlanmıştır.</p>
+           <div class="project-tech-tags">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">HTML</span>
+                     <span class="tech-tag">CSS</span>
+                      <span class="tech-tag">JavaScript</span>
+                </div>
+           
+           
+            </article>
+
+            
+
+<article class="card-clean">
+                <h3>STM32 Mikrodenetleyici ile Sanal mesafe ölçümü ve ortamala hız tespiti</h3>
+                <p>Bu proje, STM32G474RE mikrodenetleyicisi kullanılarak sanal bir mesafe ölçümü ve ortalama hız hesaplama sistemini simüle eder. Sistem, mesafe değerlerine göre bir LED ile uyarı verir ve UART üzerinden haberleşme sağlanarak termitte anlık veriler görünecek şekilde durumu raporlar.Bu projede Stm32g474RE mikrodenetleyicisini kullanarak yazılım-donanım entegrasyonu alanında ve canlı verilerin görüntülenmesi konusunda derinleşme fırsatı buldum.</p>
+            <div class="project-tech-tags">
+                    <span class="tech-tag">Embedded C</span>
+                    <span class="tech-tag">STM32 mikrodenetleyicisi</span>
+             
+                </div>
+            
+            
+            </article>
+
+
+            <article class="card-clean">
+                <h3>OOP ve SOLID Uygulamaları</h3>
+                <p>Nesne yönelimli programlama temelleri ve SOLID prensipleri uygulanarak küçük çaplı java projeleri geliştirerek pratik yaptım.</p>
+             <div class="project-tech-tags">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Object-Oriented Programming</span>
+             
+                </div>
+            
+            </article>
+
+
+            
+
+
+        </div>
+    </section>
+
+    <!-- Sertifikalar -->
+    <section id="sertifikalar" class="scroll-anim">
+        <h2>Sertifikalar ve Yetkinlikler</h2>
+        <div class="grid-container">
+            <div class="card-clean">
+                <img src="fotolar/siber.png" alt="Siber Güvenlik Sertifikası" class="cert-img">
+                <h3>Siber Güvenliğe Giriş</h3>
+                <p>Cisco ve Akbank tarafından düzenlenen temel siber güvenlik eğitimini tamamlayarak ve sınavından 70 üstü puan alarak bu sertifikayı almaya hak kazandım.</p>
+            </div>
+            <div class="card-clean">
+                <img src="fotolar/linux.png" alt="Linux Sertifikası" class="cert-img">
+                <h3>Linux Eğitim Sertifikası</h3>
+                <p>Cisco ve Akbank tarafından düzenlenen Linux işletim sistemi eğitimini tamamlayarak ve sınavından 70 üstü puan alarak bu sertifikayı almaya hak kazandım.</p>
+            </div>
+
+ <div class="card-clean">
+                <img src="fotolar/web.png" alt="Linux Sertifikası" class="cert-img">
+                <h3>HTML5 ile Web Geliştirme</h3>
+                <p>BTK tarafından verilen HTML5 ile Web Geliştirme eğitimini tamamlayarak bu sertifikayı almaya hak kazandım.</p>
+            </div>
+
+            <div class="card-clean">
+                <img src="fotolar/gömülü.png" alt="Linux Sertifikası" class="cert-img">
+                <h3>Gömülü Yazılım Geliştirme</h3>
+                <p>BTK tarafından verilen Gömülü Yazılım Geliştirme eğitimini tamamlayarak bu sertifikayı almaya hak kazandım.</p>
+            </div>
+
+  <div class="card-clean">
+                <img src="fotolar/gömülü.png" alt="Linux Sertifikası" class="cert-img">
+                <h3>Generative AI ile Kodlama 101  </h3>
+                <p>Akbank tarafından verilen Generative AI ile Kodlama 101 eğitimini tamamlayarak bu sertifikayı almaya hak kazandım.</p>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Gönüllülük Faaliyetleri -->
+    <section id="gonulluluk" class="scroll-anim">
+        <h2>Gönüllülük Faaliyetleri</h2>
+        <div class="card-clean">
+            <h3>IEEE Computer Society (CS) - Başkan Yardımcısı</h3>
+            <p class="date-text">Temmuz 2025 – Devam ediyor</p>
+            <p>IEEE klübünün Computer Society(CS) komitesinde başkan yardımcılığı görevime devam etmekteyim.</p>
+        </div>
+
+        <div class="card-clean">
+            <h3>BTK(Bilişim Teknolojileri ve Yazılım Kulübü) - Sponsorluk Başkanı</h3>
+            <p class="date-text">Eylül 2024 – Haziran 2025</p>
+            <p>Karabük Üniversitesi Bilişim Teknolojileri ve Yazılım Kulübü'nde sponsorluk birimi üyesi olarak başladığım bu süreçte sponsorluk başkan yardımcılığı ve ardından sponsorluk başkanı görevlerini  yerine getirerek bu kulübe katkıda bulundum.</p>
+        </div>
+
+         <div class="card-clean">
+            <h3>PARTECH Hava Savunma Sistemleri</h3>
+            <p class="date-text">Eylül 2025 – Devam Ediyor</p>
+            <p>PARTECH Hava Savunma Sistemleri takımının gömülü yazılım ekibinde yer alıyorum.Buradaki görevim motor kontrol algoritmalarının,acil durdurma sisteminin,lazer ateşleme mekanizmasının sisteme entegre edilmesidir.STM32 mikrodenetleyicisi,step motorlar,motor sürücüleri kullanılarak ve uygun algoritmalar geliştirilerek sisteme kazandırılması görev tanımımdır.</p>
+        </div>
+
+
+    </section>
+
+ 
+
+
+
+
+
+    <!-- İletişim -->
+   <section id="iletisim" class="scroll-anim">
+        <h2>İletişim</h2>
+        <div class="card-clean contact-card">
+            <p class="contact-desc">Benimle projeler, staj olanakları veya fikir alışverişi için iletişime geçebilirsiniz.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:caniptes2003@gmail.com" class="contact-item">
+                    <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">E-posta</span>
+                        <span class="contact-value">Benimle iletişime geçin !</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/fuat-can-ipte%C5%9F-9a575328a/" target="_blank" class="contact-item">
+                    <div class="icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">Ağıma Katılın</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/Fuat-Can-iptes" target="_blank" class="contact-item">
+                    <div class="icon-box"><i class="fa-brands fa-github"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">Projelerimi İnceleyin</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
